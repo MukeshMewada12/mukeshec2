@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 backend/node_modules/
 
 # Environment Files
+=======
+backend/node_modules/
+
+# Environment Files
+>>>>>>> 945a1fea61518bdf5268197b058056d911005fe6
 backend/.env
