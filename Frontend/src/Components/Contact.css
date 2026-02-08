@@ -1,0 +1,14 @@
+table{
+    background-color: black;
+    color: white;
+    margin: 10px;
+    padding: 5px;
+    border: 2px;
+    border-color: aqua;
+}
+td,th,tr{
+    padding: 5px;
+    border: 2px;
+    border-radius: 2px;
+    border-color: white;
+}

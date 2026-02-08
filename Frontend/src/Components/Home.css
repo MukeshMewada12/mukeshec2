@@ -1,0 +1,36 @@
+    body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Flex container for nav bar */
+        .container {
+            display: flex;                /* enable flex layout */
+            flex-direction: row;          /* items go left to right */
+            justify-content: space-around;/* space around items horizontally */
+            align-items: center;          /* center items vertically */
+            background-color: black;      /* nav background */
+            padding: 15px;
+        }
+
+        /* Flex container for link group */
+        .link {
+            display: flex;
+            flex-direction: row;           
+            justify-content: space-between; /* space between links */
+            gap: 20px;                      /* space between link items */
+        }
+
+        /* Link styling */
+        .link a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 8px 12px;
+        }
+
+        .link a:hover {
+            background-color: #444;
+            border-radius: 4px;
+        }

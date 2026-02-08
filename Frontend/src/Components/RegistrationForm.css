@@ -1,0 +1,17 @@
+body{
+    background-color: white;
+    text-align: center;
+}
+.fieldset{
+    margin: 20px;
+    padding: 20px;
+    background-color: black;
+    text-align: center;
+    color: red;
+}
+label{
+    margin: 10px;
+}
+input{
+    margin: 10px;
+}
